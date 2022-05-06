@@ -43,9 +43,10 @@ public class CustomListeners extends BaseClass implements ITestListener,ISuiteLi
 	}
 
 	public void onTestFailure(ITestResult arg0) {
-
+		System.out.print("Test has failed" + driver.getClass());
 		try {
 			Utilities.captureScreenshot();
+			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

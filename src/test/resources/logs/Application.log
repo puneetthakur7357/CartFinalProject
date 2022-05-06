@@ -1,11 +1,5 @@
-05/05/2022 19:45:08 qaLogger Testing on Chrome Browser
-05/05/2022 19:45:09 qaLogger Opening URL
-05/05/2022 19:45:13 qaLogger Login test case running....
-05/05/2022 19:45:13 qaLogger Clicked on My Account 
-05/05/2022 19:45:16 qaLogger Clicked on Login option 
-05/05/2022 19:45:20 qaLogger Entered username and password 
-05/05/2022 19:45:26 qaLogger Testing on Chrome Browser
-05/05/2022 19:45:28 qaLogger Opening URL
-05/05/2022 19:45:32 qaLogger Fail test case running....
-05/05/2022 19:45:32 qaLogger Clicked on My Account 
-05/05/2022 19:45:35 qaLogger Clicked on Login option 
+05/05/2022 21:29:38 qaLogger Testing on Chrome Browser
+05/05/2022 21:29:39 qaLogger Opening URL
+05/05/2022 21:29:43 qaLogger Fail test case running....
+05/05/2022 21:29:44 qaLogger Clicked on My Account 
+05/05/2022 21:29:47 qaLogger Clicked on Login option 

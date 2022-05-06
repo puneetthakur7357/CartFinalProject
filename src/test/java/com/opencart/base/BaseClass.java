@@ -103,17 +103,6 @@ public class BaseClass {
 	
 	}
 
-
-	
-	/*public void screenShot(ITestResult testResult) throws IOException {
-		if (testResult.getStatus() == ITestResult.FAILURE) {
-			String path = ScreenShots.takeScreenshot(driver, testResult.getName());
-			String imagepath = test.addScreenCapture(path);
-			logger.info("Test Failed");
-			test.log(LogStatus.FAIL, "Test Failed", imagepath);
-		}
-	}*/
-
 	@AfterClass
 	public void tearDown() throws AddressException, MessagingException, IOException {
 		
