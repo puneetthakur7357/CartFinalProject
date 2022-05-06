@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 38.581 s <<< FAILURE! - in TestSuite
-com.opencart.testCases.TC001_LoginTest_Fail.loginTest  Time elapsed: 5.693 s  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20.763 s <<< FAILURE! - in TestSuite
+com.opencart.testCases.TC001_LoginTest_Fail.loginTest  Time elapsed: 6.349 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at com.opencart.testCases.TC001_LoginTest_Fail.loginTest(TC001_LoginTest_Fail.java:53)
 
