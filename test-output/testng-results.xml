@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Multiple test cases" duration-ms="19500" started-at="2022-05-06T01:29:31Z" finished-at="2022-05-06T01:29:51Z">
+  <suite name="Multiple test cases" duration-ms="79937" started-at="2022-05-06T01:53:53Z" finished-at="2022-05-06T01:55:12Z">
     <groups>
     </groups>
-    <test name="Login Test" duration-ms="19500" started-at="2022-05-06T01:29:31Z" finished-at="2022-05-06T01:29:51Z">
-      <class name="com.opencart.testCases.TC001_LoginTest_Fail">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testCases.TC001_LoginTest_Fail@20d3d15a]" name="setup" is-config="true" duration-ms="11965" started-at="2022-05-05T21:29:31Z" finished-at="2022-05-05T21:29:43Z">
+    <test name="Login Test" duration-ms="79937" started-at="2022-05-06T01:53:53Z" finished-at="2022-05-06T01:55:12Z">
+      <class name="com.opencart.testCases.TC001_LoginTest_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testCases.TC001_LoginTest_001@2c34f934]" name="setup" is-config="true" duration-ms="13657" started-at="2022-05-05T21:53:53Z" finished-at="2022-05-05T21:54:06Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,28 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="loginTest()[pri:0, instance:com.opencart.testCases.TC001_LoginTest_Fail@20d3d15a]" name="loginTest" duration-ms="5766" started-at="2022-05-05T21:29:43Z" finished-at="2022-05-05T21:29:49Z">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.opencart.testCases.TC001_LoginTest_001@2c34f934]" name="loginTest" duration-ms="6954" started-at="2022-05-05T21:54:06Z" finished-at="2022-05-05T21:54:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.opencart.testCases.TC001_LoginTest_001@2c34f934]" name="tearDown" is-config="true" duration-ms="1043" started-at="2022-05-05T21:54:14Z" finished-at="2022-05-05T21:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.opencart.testCases.TC001_LoginTest_001 -->
+      <class name="com.opencart.testCases.TC001_LoginTest_Fail">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testCases.TC001_LoginTest_Fail@12d3a4e9]" name="setup" is-config="true" duration-ms="11648" started-at="2022-05-05T21:54:15Z" finished-at="2022-05-05T21:54:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="loginTest()[pri:0, instance:com.opencart.testCases.TC001_LoginTest_Fail@12d3a4e9]" name="loginTest" duration-ms="5785" started-at="2022-05-05T21:54:26Z" finished-at="2022-05-05T21:54:32Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -61,11 +82,92 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.opencart.testCases.TC001_LoginTest_Fail@20d3d15a]" name="tearDown" is-config="true" duration-ms="1096" started-at="2022-05-05T21:29:50Z" finished-at="2022-05-05T21:29:51Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.opencart.testCases.TC001_LoginTest_Fail@12d3a4e9]" name="tearDown" is-config="true" duration-ms="872" started-at="2022-05-05T21:54:33Z" finished-at="2022-05-05T21:54:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.opencart.testCases.TC001_LoginTest_Fail -->
+      <class name="com.opencart.testCases.TC001_LoginTest_DataDriven">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testCases.TC001_LoginTest_DataDriven@240237d2]" name="setup" is-config="true" duration-ms="11086" started-at="2022-05-05T21:54:33Z" finished-at="2022-05-05T21:54:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="dataloginTest(java.lang.String, java.lang.String)[pri:0, instance:com.opencart.testCases.TC001_LoginTest_DataDriven@240237d2]" name="dataloginTest" duration-ms="6568" started-at="2022-05-05T21:54:45Z" data-provider="dp" finished-at="2022-05-05T21:54:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demotour@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hello1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataloginTest -->
+        <test-method status="PASS" signature="dataloginTest(java.lang.String, java.lang.String)[pri:0, instance:com.opencart.testCases.TC001_LoginTest_DataDriven@240237d2]" name="dataloginTest" duration-ms="6320" started-at="2022-05-05T21:54:52Z" data-provider="dp" finished-at="2022-05-05T21:54:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hello2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataloginTest -->
+        <test-method status="PASS" signature="dataloginTest(java.lang.String, java.lang.String)[pri:0, instance:com.opencart.testCases.TC001_LoginTest_DataDriven@240237d2]" name="dataloginTest" duration-ms="6346" started-at="2022-05-05T21:54:58Z" data-provider="dp" finished-at="2022-05-05T21:55:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tour@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hello3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataloginTest -->
+        <test-method status="PASS" signature="dataloginTest(java.lang.String, java.lang.String)[pri:0, instance:com.opencart.testCases.TC001_LoginTest_DataDriven@240237d2]" name="dataloginTest" duration-ms="6751" started-at="2022-05-05T21:55:05Z" data-provider="dp" finished-at="2022-05-05T21:55:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demo30@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bayview@2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataloginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.opencart.testCases.TC001_LoginTest_DataDriven@240237d2]" name="tearDown" is-config="true" duration-ms="913" started-at="2022-05-05T21:55:12Z" finished-at="2022-05-05T21:55:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.opencart.testCases.TC001_LoginTest_DataDriven -->
     </test> <!-- Login Test -->
   </suite> <!-- Multiple test cases -->
 </testng-results>

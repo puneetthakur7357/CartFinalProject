@@ -9,8 +9,8 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.opencart.testCases.TC001_LoginTest_001" />
-			<class name="com.opencart.testCases.TC001_LoginTest_Fail" />
-			<class name="com.opencart.testCases.TC001_LoginTest_DataDriven" />
+		<!-- 	<class name="com.opencart.testCases.TC001_LoginTest_Fail" />
+			<class name="com.opencart.testCases.TC001_LoginTest_DataDriven" /> -->
 		<!-- 	<class name="com.opencart.testCases.TC001_RegisterUser" /> -->
 		</classes>
 	</test> <!-- Test -->
