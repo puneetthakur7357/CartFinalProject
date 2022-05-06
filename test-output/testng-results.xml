@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Open cart demo" duration-ms="24296" started-at="2022-05-05T17:18:01Z" finished-at="2022-05-05T17:18:25Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="24296" started-at="2022-05-05T17:18:01Z" finished-at="2022-05-05T17:18:25Z">
+      <class name="com.opencart.testCases.TC001_RegisterUser">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.opencart.testCases.TC001_RegisterUser@20d3d15a]" name="setup" is-config="true" duration-ms="11914" started-at="2022-05-05T13:18:01Z" finished-at="2022-05-05T13:18:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.opencart.testCases.TC001_RegisterUser@20d3d15a]" name="loginTest" duration-ms="10919" started-at="2022-05-05T13:18:13Z" finished-at="2022-05-05T13:18:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.opencart.testCases.TC001_RegisterUser@20d3d15a]" name="tearDown" is-config="true" duration-ms="1081" started-at="2022-05-05T13:18:24Z" finished-at="2022-05-05T13:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.opencart.testCases.TC001_RegisterUser -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Open cart demo -->
+</testng-results>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Open cart demo" >
+	<listeners>
+		<listener class-name="com.opencart.base.CustomListeners" />
+
+	</listeners>
+	<test name="Login Test">
+	<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.opencart.testCases.TC001_RegisterUser" />
+		
+			
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->
+
