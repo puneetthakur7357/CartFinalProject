@@ -19,7 +19,7 @@ public class TC001_LoginTest_001 extends BaseClass {
 	public void loginTest() throws InterruptedException{
 		test = report.startTest("Login test case running.... ");
 		logger.info("Login test case running....");
-		
+		System.out.println("Test");
 		
 		YourStore yt = new YourStore(driver);
 		yt.ClickonMyaccount();

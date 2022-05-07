@@ -4,16 +4,16 @@
   <listeners>
     <listener class-name="com.opencart.base.CustomListeners"/>
   </listeners>
-  <test name="Login Test(failed)">
+  <test name="Login Fail Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.opencart.testCases.TC001_LoginTest_001">
+      <class name="com.opencart.testCases.TC001_LoginTest_Fail">
         <methods>
           <include name="tearDown"/>
           <include name="loginTest"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.opencart.testCases.TC001_LoginTest_001 -->
+      </class> <!-- com.opencart.testCases.TC001_LoginTest_Fail -->
     </classes>
-  </test> <!-- Login Test(failed) -->
+  </test> <!-- Login Fail Test(failed) -->
 </suite> <!-- Failed suite [Open cart demo] -->
