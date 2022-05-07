@@ -49,7 +49,7 @@ public class BaseClass {
 
 	@Parameters("browser")
 	@BeforeClass()
-	public void setup(String br){
+	public void setup(String br) throws InterruptedException{
 	//	report = new ExtentReports("C:\\Users\\PuneetPC\\workspace\\CartFinalProject\\src\\test\\resources\\extentreport\\report1.html");
 		//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Drivers\\chromedriver.exe"); // user.dir will give you C:\\Users\\PuneetPC\\workspace\\CartFinalProject
 
@@ -98,6 +98,7 @@ public class BaseClass {
 		driver.get(baseURL);
 		logger.info("Opening URL");
 		driver.manage().window().maximize();
+		Thread.sleep(2000);
 
 		// Global implicit Wait
 	

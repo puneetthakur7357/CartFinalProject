@@ -1,6 +1,24 @@
-05/05/2022 22:06:42 qaLogger Testing on Chrome Browser
-05/05/2022 22:06:43 qaLogger Opening URL
-05/05/2022 22:06:48 qaLogger Login test case running....
-05/05/2022 22:06:48 qaLogger Clicked on My Account 
-05/05/2022 22:06:51 qaLogger Clicked on Login option 
-05/05/2022 22:06:54 qaLogger Entered username and password 
+07/05/2022 12:22:06 qaLogger Testing on Chrome Browser
+07/05/2022 12:22:08 qaLogger Opening URL
+07/05/2022 12:22:14 qaLogger Login test case running....
+07/05/2022 12:22:14 qaLogger Clicked on My Account 
+07/05/2022 12:22:18 qaLogger Clicked on Login option 
+07/05/2022 12:22:21 qaLogger Entered username and password 
+07/05/2022 12:22:29 qaLogger Testing on Chrome Browser
+07/05/2022 12:22:30 qaLogger Opening URL
+07/05/2022 12:22:38 qaLogger Data Driven login test case running.....
+07/05/2022 12:22:40 qaLogger Clicked on My Account 
+07/05/2022 12:22:43 qaLogger Clicked on Login option 
+07/05/2022 12:22:47 qaLogger Entered username and password 
+07/05/2022 12:22:47 qaLogger Data Driven login test case running.....
+07/05/2022 12:22:49 qaLogger Clicked on My Account 
+07/05/2022 12:22:52 qaLogger Clicked on Login option 
+07/05/2022 12:22:55 qaLogger Entered username and password 
+07/05/2022 12:22:55 qaLogger Data Driven login test case running.....
+07/05/2022 12:22:57 qaLogger Clicked on My Account 
+07/05/2022 12:23:00 qaLogger Clicked on Login option 
+07/05/2022 12:23:04 qaLogger Entered username and password 
+07/05/2022 12:23:04 qaLogger Data Driven login test case running.....
+07/05/2022 12:23:06 qaLogger Clicked on My Account 
+07/05/2022 12:23:09 qaLogger Clicked on Login option 
+07/05/2022 12:23:13 qaLogger Entered username and password 

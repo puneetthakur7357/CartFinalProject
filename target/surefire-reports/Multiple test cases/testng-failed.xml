@@ -7,13 +7,20 @@
   <test name="Login Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.opencart.testCases.TC001_LoginTest_Fail">
+      <class name="com.opencart.testCases.TC001_LoginTest_DataDriven">
+        <methods>
+          <include name="tearDown"/>
+          <include name="dataloginTest" invocation-numbers="3"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.opencart.testCases.TC001_LoginTest_DataDriven -->
+      <class name="com.opencart.testCases.TC001_LoginTest_001">
         <methods>
           <include name="tearDown"/>
           <include name="loginTest"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.opencart.testCases.TC001_LoginTest_Fail -->
+      </class> <!-- com.opencart.testCases.TC001_LoginTest_001 -->
     </classes>
   </test> <!-- Login Test(failed) -->
 </suite> <!-- Failed suite [Multiple test cases] -->

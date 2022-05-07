@@ -22,6 +22,7 @@ public class TC001_LoginTest_DataDriven extends BaseClass {
 		
 		
 		YourStore yt = new YourStore(driver);
+		Thread.sleep(2000);
 		yt.ClickonMyaccount();
 		test.log(LogStatus.INFO, "Clicked on My account dropdown");
 		logger.info("Clicked on My Account ");
